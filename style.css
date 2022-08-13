@@ -1,0 +1,218 @@
+@import url('http://fonts.cdnfonts.com/css/product-sans');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;700&family=Fraunces:opsz,wght@9..144,100;9..144,300;9..144,400;9..144,700&family=Josefin+Sans:ital,wght@0,100;0,300;0,500;0,600;0,700;1,300;1,400;1,600&family=Kumbh+Sans:wght@100;400;700&family=Libre+Franklin:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;1,300;1,600;1,700&family=Montserrat:ital,wght@0,100;0,500;0,700;1,500;1,700&family=Open+Sans:wght@300;400;500;600;700&family=Overpass:ital,wght@0,100;0,300;0,600;1,100&family=Poppins:wght@400;600;700&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,200;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Product Sans';
+}
+
+.top{
+    height: 50px;
+    background: linear-gradient(180deg, #4C38EE 0%, #543DFF 100%);
+}
+.top__text{
+       
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;    
+    color: #FFFFFF; 
+}
+.showcase{
+    /* position: absolute;
+    width: 1440px; */
+    height: 731px;
+    left: 0px;
+    top: 50px;
+
+background: linear-gradient(122.29deg, #4C38EE 40.13%, rgba(76, 56, 238, 0.3) 133.77%);
+}
+.showcase__menuItem{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.nav-item{
+    padding-left: 2rem;
+}
+.show__content a{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.show__content .logo{
+    margin-right: 1rem;
+    width: 50px;
+    height: 50px;
+}
+.show__content h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+
+color: #FFFFFF;
+
+}
+.show__content p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+}
+.show__content .btn-customize{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 36px 81px;
+gap: 10px;
+width: 137px;
+height: 50px;
+color: #291EF6;
+background: #FFFFFF;
+border-radius: 5px;
+margin-top: 2rem;
+}
+/* .rectangle-img{
+  
+width: 1000px;
+height: 892.66px;
+
+} */
+
+.main h2{
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+color: #4C38EE;
+
+}
+.main p{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #121212;
+width: 80%;
+}
+
+.main .p-two{             
+    color: #000000;
+}
+
+.main .h2-three{
+    color: #291EF6;
+}
+
+.main .p-three{
+    color: #222222;
+}
+
+
+/* CONTACT */
+.contact{
+    background: #4C38EE;
+}
+.contact h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    }
+    .contact p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    }
+    
+    .contact a{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+     border-radius: 0;
+    }
+    .contact__text{
+        width: 60%;
+    }
+
+/* FOOTER */
+ .footer ul{
+    list-style: none;
+    
+}
+.footer .title, h5{
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #0000FF;
+margin-bottom: 2rem;
+}
+.footer li{
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #121212;
+padding-top: .5rem;
+}
+.news-input{
+    padding-top: 3rem;
+}
+
+.footer .btn{
+width: 104.19px;
+height: 64px;
+background: #3722D3;
+border-radius: 5px;
+}
+.footer .copyright{
+    border-top: 1px solid rgba(60, 99, 176, 0.2);;
+}
+.footer .copy{
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+color: #0000FF;
+}
+
+.scrolltop{
+    position: fixed;
+    right: 1rem;
+    bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #0000FF;
+    transition: .4s;
+    padding: .8rem;
+    border-radius: 50%;
+}
+
+
+                
